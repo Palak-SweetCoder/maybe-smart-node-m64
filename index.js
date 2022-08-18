@@ -57,7 +57,7 @@ app.get('/fruits', (req, res) => {
 })
 
 app.get('/fruits/mango/fazle', (req, res) => {
-    res.req('sour sour fazle flavor');
+    res.send('sour sour fazle flavor');
 })
 
 app.listen(port, () => {
